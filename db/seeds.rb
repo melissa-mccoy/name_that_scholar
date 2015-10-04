@@ -8,7 +8,7 @@
 require 'csv'
 
 # READ FROM CSV with Josh Photos
-CSV.foreach("members_final.csv","r:windows-1250") do |row|
+CSV.foreach("members_final2.csv","r:windows-1250") do |row|
    name = row[0]
    photo_url = row[1]
    year = row[2]
