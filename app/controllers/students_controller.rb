@@ -4,20 +4,17 @@ class StudentsController < ApplicationController
     render json: Student.all
   end
 
-  def index_a
-    render json: Student.where(section: 'A')
+  def index_first
+    render json: Student.where(year: '1')
   end
 
-  def index_b
-    render json: Student.where(section: 'B')
+  def index_second
+    render json: Student.where(year: '2')
   end
 
-  def index_c
-    render json: Student.where(section: 'C')
+  def index_third
+    render json: Student.where(year: '3')
   end
 
-  def index_d
-    render json: Student.where(section: 'D')
-  end
 
 end

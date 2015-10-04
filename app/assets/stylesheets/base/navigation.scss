@@ -147,7 +147,7 @@
 }
 
 .nav > li.active {
-  border-left: 4px solid darken(#002147, 2%);
+  border-left: 4px solid darken(#083C76, 2%);
   background: darken($nav-bg, 3%);
 }
 
@@ -275,7 +275,7 @@ body.mini-navbar .navbar-default .nav > li > .nav-second-level li a {
 }
 
 .navbar-default .special_link a {
-  background: #002147;
+  background: #083C76;
   color: white;
 }
 
@@ -286,22 +286,22 @@ body.mini-navbar .navbar-default .nav > li > .nav-second-level li a {
 
 .navbar-default .special_link a span.label {
   background: white;
-  color: #002147;
+  color: #083C76;
 }
 
 .navbar-default .landing_link a {
-  background: lighten(#002147, 3%);
+  background: lighten(#083C76, 3%);
   color: white;
 }
 
 .navbar-default .landing_link a:hover {
-  background: #002147 !important;
+  background: #083C76 !important;
   color: white;
 }
 
 .navbar-default .landing_link a span.label {
   background: white;
-  color: lighten(#002147, 3%);
+  color: lighten(#083C76, 3%);
 }
 
 .logo-element {
@@ -379,7 +379,7 @@ body.canvas-menu .logo-element {
 
 body.mini-navbar .nav-header {
   padding: 0;
-  background-color: #002147;
+  background-color: #083C76;
 }
 
 body.canvas-menu .nav-header {

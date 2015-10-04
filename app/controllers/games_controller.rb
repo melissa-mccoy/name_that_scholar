@@ -10,19 +10,15 @@ class GamesController < ApplicationController
     @game = Game.new;
   end
 
-  def new_a
+  def new_first
     @game = Game.new;
   end
 
-  def new_b
+  def new_second
     @game = Game.new;
   end
 
-  def new_c
-    @game = Game.new;
-  end
-
-  def new_d
+  def new_third
     @game = Game.new;
   end
 
