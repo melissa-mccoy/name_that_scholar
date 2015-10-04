@@ -34,7 +34,7 @@ ActiveRecord::Schema.define(version: 20150927221516) do
   create_table "students", force: true do |t|
     t.string   "name",        null: false
     t.string   "facebook_id"
-    t.string   "section"
+    t.string   "year"
     t.string   "photo_url"
     t.datetime "created_at"
     t.datetime "updated_at"

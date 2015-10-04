@@ -20,7 +20,7 @@
                 <td class="footable-visible footable-first-column"><span class="footable-toggle"></span><strong><%= game.name %></strong></td>
                 <td class="footable-visible"><span class="footable-toggle"></span><%= game.score %></td>
                 <td class="footable-visible"><span class="footable-toggle"></span><%= game.game_type %></td>
-                <td class="center footable-visible footable-last-column"><span class="footable-toggle"></span><%= game.created_at.strftime("%m/%d/%Y") %>, <%= game.created_at.strftime("%I:%M%p") %></td>
+                <td class="center footable-visible footable-last-column"><span class="footable-toggle"></span><%= game.created_at.strftime("%d/%m/%Y") %>, <%= game.created_at.strftime("%I:%M%p") %></td>
               </tr>
             <% end %>
            </tbody>

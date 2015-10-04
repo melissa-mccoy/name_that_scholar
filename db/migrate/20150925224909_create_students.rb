@@ -3,7 +3,7 @@ class CreateStudents < ActiveRecord::Migration
     create_table :students do |t|
       t.string :name, null:false
       t.string :facebook_id
-      t.string :section
+      t.string :year
       t.string :photo_url
       t.timestamps
     end

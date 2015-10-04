@@ -11,9 +11,8 @@ require 'csv'
 CSV.foreach("members_final.csv","r:windows-1250") do |row|
    name = row[0]
    photo_url = row[1]
-   section = row[2]
-   facebook_id = row[3]
-   Student.create(name: name, facebook_id: facebook_id, photo_url: photo_url,section: section)
+   year = row[2]
+   Student.create(name: name, photo_url: photo_url, year: year)
 end
 
 # READ FROM CSV & SEED DB
